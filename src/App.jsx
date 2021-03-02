@@ -34,6 +34,9 @@ const App = () => {
                 <Route exact path="/cast">
                     <Cast />
                 </Route>
+                <Route exact path="/cast/:castDeets">
+                    <Cast />
+                </Route>
                 <Route exact path="*">
                     {() => <h1>404, page not found, you did something wrong, ya Dummy</h1>}
                 </Route>

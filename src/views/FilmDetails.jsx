@@ -22,6 +22,7 @@ const FilmDetails = () => {
                             <h3 class="card-title text-center">{film?.director}</h3>
                             <h5 class="card-title text-left">{film?.release_date}</h5>
                             <h5 class="card-title text-right">Rotten Tomatoes Score - {film?.rt_score}</h5>    
+                            {/* would like to have the RT line even with the "release date" line */}
                             <p class="card-text">{film?.description}</p>
                         </div>
                     </div>

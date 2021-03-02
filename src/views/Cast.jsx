@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-// import { Link } from 'react-router-dom';
+ import { Link } from 'react-router-dom';
 
 
 
@@ -23,7 +23,7 @@ const Cast = () => {
                                 {cast.name}
                                 
                                 {/* {film.description} */}
-                                {/* <Link to={`/Films/${film.id}`} className="btn btn-primary btn-sm">Click for Details</Link> */}
+                                <Link to={`/Cast/${cast.id}`} className="btn btn-primary btn-sm">Click for Details</Link>
                             </li>
                         ))}
                     </ul>
